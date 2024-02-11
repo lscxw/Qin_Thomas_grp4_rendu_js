@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JAVASCRIPT</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- --------------------------------HEADER---------------------------------------- -->
+    <header>
+      <div class="texte"><h1>Harry Potter</h1></div>
+    </header>
+    <!-- --------------------------------NAV---------------------------------------- -->
+    <nav>
+      <ul>
+        <li><a href="index.html">Accueil</a></li>
+        <li><a href="creature.html">Les créatures</a></li>
+        <li><a href="univers.html">L'univers</a></li>
+      </ul>
+    </nav>
+
+    <!-- Slider main container -->
+    <div class="swipe mon-slider">
+      <!-- Additional required wrapper -->
+      <div class="swiper-wrapper">
+        <!-- Slides -->
+        <div class="swiper-slide slide-dw">
+          <p class="subtitle">Harry potter</p>
+          <p class="title">Accueil</p>
+        </div>
+
+        <div class="swiper-slide slide-cd">
+          <p class="subtitle">Harry potter</p>
+          <p class="title">Les créatures</p>
+        </div>
+
+        <div class="swiper-slide slide-cdeb">
+          <p class="subtitle">Harry potter</p>
+          <p class="title">L'univers</p>
+        </div>
+      </div>
+      <!-- If we need pagination -->
+      <div class="swiper-pagination"></div>
+
+      <!-- If we need navigation buttons -->
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+    <main>
+      <!-- -----------------------------MAIN------------------------------------- -->
+      <article>
+        <h2>BIENVENUE !</h2>
+        <div id="bienvenue">
+          <img
+            src="https://imgs.search.brave.com/sDgXQa5IVgPat8zCSYPltfPMpnKflCpE1L_yBzrPv20/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2QxL2I1/LzQyL2QxYjU0MjEw/NTQ1MzA4MTQyMTZl/ZWRmMDg4ZmM4NDBl/LmpwZw"
+            alt="image"
+            id="image2"
+            class="img"
+          />
+          <h3>Harry Potter pour les nuls</h3>
+          <p>
+            Harry Potter [ʔaʁi pɔtœʁ]a (en anglais : [ˈhæɹi ˈpɒtə]b) est une
+            série littéraire de low fantasy écrite par l'auteure britannique J.
+            K. Rowling, dont la suite romanesque s'est achevée en 2007. Une
+            pièce de théâtre, considérée comme la « huitième histoire »
+            officielle, a été jouée et publiée en 2016. L'intrigue principale de
+            la série met en scène le combat de Harry contre Lord Voldemort, un
+            mage noir à la recherche de l'immortalité ayant autrefois assassiné
+            les parents du garçon. À la tête de ses fidèles adeptes, les
+            Mangemorts, Voldemort cherche depuis des décennies à acquérir le
+            pouvoir absolu sur le monde des sorciers et des Moldus (les humains
+            dépourvus de pouvoirs magiques). Ancrés dans la société britannique
+            des années 1990, les romans comportent de nombreux aspects du roman
+            d'apprentissage.
+          </p>
+          <div id="image-container">
+            <img
+              src="https://imgs.search.brave.com/Cuq5ZOhB0anJ3d0Ldu3J-QG-ttJq936UXc_xN_9TF_A/rs:fit:860:0:0/g:ce/aHR0cHM6Ly9ub2Js/ZWNvbGxlY3Rpb24u/ZnIvaW1nL04vTk44/NzI1XzEwODAud2Vi/cA"
+              alt="image"
+              class="img"
+            />
+          </div>
+        </div>
+      </article>
+      <div class="tabs-container">
+        <ul class="tabs">
+          <li class="tab tab-active tab-griffondor">griffondor</li>
+          <li class="tab tab-active tab-serpentard">serpentard</li>
+          <li class="tab tab-active tab-poufsouffle">poufsouffle</li>
+          <li class="tab tab-active tab-serdaigle">serdaigle</li>
+        </ul>
+
+        <div class="tabs-container">
+          <!-- ... Other content ... -->
+          <div class="content content-griffondor">
+            <h2>sorcier de griffondor</h2>
+            <p>
+              Gryffondor a été fondée par Godric Gryffondor. Ses couleurs sont
+              le rouge et l'or et son emblème est le lion. Elle valorise le
+              courage, la hardiesse, la force, la bravoure et la détermination.
+              Sa salle commune est située au septième étage. Le fantôme attaché
+              à Gryffondor est Nick Quasi-Sans-Tête. La maison compte parmi ses
+              élèves les plus célèbres Albus Dumbledore, Celestina Moldubec,
+              Minerva McGonagall ou encore Harry Potter.
+            </p>
+          </div>
+          <div class="content content-serpentard">
+            <h2>sorcier de Serpentard</h2>
+            <p>
+              Serpentard a été fondée par Salazar Serpentard. Son emblème, le
+              serpent, rend hommage à ses dons de Fourchelang et ses couleurs
+              sont le vert et l'argent. Serpentard valorise la grandeur, la
+              ruse, l'ambition et la fierté. Sa salle commune se situe dans les
+              cachots, sous le lac de Poudlard et son fantôme est le Baron
+              Sanglant. Serpentard est connue pour être la maison ayant
+              accueilli le plus grand nombre de mages noirs sur ses bancs, comme
+              Lord Voldemort et Bellatrix Lestrange mais aussi pour avoir formé
+              des sorciers de renom et populaires, tels que Merlin.
+            </p>
+          </div>
+          <div class="content content-poufsouffle">
+            <h2>sorcier de poufsouffle</h2>
+            <p>
+              Fondée par Helga Poufsouffle, Poufsouffle est représentée par un
+              blaireau et ses couleurs sont le jaune et le noir. On trouve parmi
+              les nombreuses qualités des Poufsouffle la loyauté, la patience,
+              le goût du travail acharné, l'honnêteté et la tolérance. Sa salle
+              commune, connue pour être la plus inaccessible, est située dans
+              les sous-sols, près des cuisines. Son fantôme est le Moine Gras et
+              Brigitte Wenlock, Artemisia Lufkin, Norbert Dragonneau font partie
+              des élèves les plus célèbres de la maison.
+            </p>
+          </div>
+          <div class="content content-serdaigle">
+            <h2>sorcier de serdaigle</h2>
+            <p>
+              C'est Rowena Serdaigle qui a fondé la maison Serdaigle.
+              Représentée par un aigle, ses couleurs sont le bleu et le bronze.
+              L'intelligence, la sagesse, la créativité, l'originalité et la
+              curiosité font partie des valeurs les plus importantes de cette
+              maison, dont la salle commune est une des plus hautes tours du
+              château de Poudlard. Son fantôme est la Dame Grise. Serdaigle
+              compte parmi ses élèves les plus connus Ignatia Wildsmith,
+              Perpetua Fancourt et Lorcan McLaird notamment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </main>
+    <footer>
+      <div id="social">
+        <h2>Social medias</h2>
+        <ul>
+          <li><a href="">Twitter</a></li>
+          <li><a href="">Facebook</a></li>
+          <li><a href="">Instagram</a></li>
+          <li><a href="">TikTok</a></li>
+        </ul>
+      </div>
+
+      <div id="rules">
+        <h2>Conditions and rights</h2>
+        <ul>
+          <li>Therms of services</li>
+          <li>Copyrights</li>
+          <p class="toggle-dark-mode">Changer le mode</p>
+        </ul>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

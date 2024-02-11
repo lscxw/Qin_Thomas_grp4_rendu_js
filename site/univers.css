@@ -1,0 +1,170 @@
+@font-face {
+  font-family: MagicFont;
+  src: url("../font/MagicSchoolOne.ttf");
+}
+
+h1 {
+  font-family: "MagicFont";
+  font-size: 100px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+}
+
+/* <!-- --------------------------HEADER---------------------------------------- --> */
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "MagicFont";
+
+  /* BORDER TEMPO----A SUPPRIMER-------------   */
+  border-style: none;
+  border-color: rgb(240, 206, 55);
+  border-radius: 15px;
+  border-width: 3px;
+  transition: color 2.3ms ease;
+}
+nav a {
+  font-size: 2 rem;
+  text-decoration: none;
+  color: rgb(240, 206, 55);
+}
+nav a:hover {
+  color: rgb(50, 0, 0);
+}
+
+/* -------------------------MAIN--------------------------- */
+
+#bvn {
+  font-size: 100%;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  text-align: center;
+}
+
+.image-arrondie {
+  border-radius: 500px;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: px;
+  margin: 0 auto;
+}
+
+.left {
+  align-self: flex-start;
+  width: 300px;
+}
+
+.center {
+  width: 300px;
+}
+
+.right {
+  align-self: flex-end;
+  width: 300px;
+}
+
+.bloc {
+  background-color: rgb(240, 206, 55);
+  padding: 20px;
+  margin: -20px;
+  height: 1000px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+/* <!-- ----------------------------FOOTER------------------------- --> */
+
+footer {
+  background-color: rgb(72, 192, 184);
+  display: flex;
+  justify-content: space-evenly;
+  margin: -20px;
+  margin-top: 50px;
+}
+
+/* ------------------dark mode------------------------*/
+body.dark {
+  background-color: rgb(37, 37, 37);
+  color: #ddd;
+}
+
+.dark title {
+  font-weight: bold;
+  font-size: 72px;
+  color: rgb(255, 255, 255);
+}
+
+.dark footer {
+  background-color: rgb(61, 61, 61);
+  color: #ddd;
+}
+
+.dark img {
+  border: 10px rgba(255, 255, 255, 0.272) ridge;
+  border-width: 5px;
+  float: right;
+  width: 600px;
+}
+
+.dark p {
+  color: rgba(255, 255, 255, 0.374);
+}
+
+.dark h2 {
+  font-family: "MagicFont";
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.dark article h3 {
+  color: rgba(240, 206, 55, 0.136);
+}
+
+.dark nav a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: rgba(240, 206, 55, 0.178);
+}
+
+.dark h1 {
+  font-family: "MagicFont";
+  font-size: 100px;
+  color: rgb(85, 72, 11);
+  text-align: center;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin: 50px 0;
+  background-image: url("https://medias.lavie.fr/api/v1/images/view/6422e9590ce01b7da43de7ab/width_1000/image.jpg");
+  background-size: 5000px;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-color: rgba(72, 61, 13, 0.415);
+}
+
+.dark li {
+  color: #ddd;
+}
+
+.dark .bloc {
+  background-color: rgb(98, 98, 22);
+  padding: 20px;
+  margin: -20px;
+  height: 1000px;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}

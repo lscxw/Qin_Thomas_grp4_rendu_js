@@ -1,0 +1,267 @@
+h1 {
+  font-family: "MagicFont";
+  font-size: 100px;
+  color: rgb(240, 206, 55);
+  text-align: center;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin: 50px 0;
+  background-image: url("https://medias.lavie.fr/api/v1/images/view/6422e9590ce01b7da43de7ab/width_1000/image.jpg");
+  background-size: 5000px;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-color: rgb(240, 206, 55);
+}
+/* ------------------SETTINGS GENERAL---------------------------- */
+p {
+  color: rgb(191, 156, 3);
+}
+
+h2 {
+  font-family: "MagicFont";
+  font-size: 50px;
+  color: rgb(203, 169, 21);
+  text-align: center;
+}
+
+/* -----------------------------------Header------------------------ */
+h1 {
+  font-family: "MagicFont";
+  font-size: 100px;
+  color: rgb(240, 206, 55);
+  text-align: center;
+  margin-left: -20px;
+  margin-right: -20px;
+  background-image: url("https://medias.lavie.fr/api/v1/images/view/6422e9590ce01b7da43de7ab/width_1000/image.jpg");
+  background-size: 5000px;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-color: rgb(240, 206, 55);
+}
+
+/* ---------------------NAV------------------------- */
+nav ul {
+  display: flex;
+  justify-content: space-evenly;
+  font-family: "MagicFont";
+
+  /* BORDER TEMPO----A SUPPRIMER-------------   */
+  border-style: none;
+  border-color: rgb(255, 207, 86);
+  border-radius: 15px;
+  border-width: 3px;
+  transition: color 2.3ms ease;
+  /* -------------------------------- */
+}
+nav a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: rgb(240, 206, 55);
+}
+nav a:hover {
+  color: rgb(255, 0, 0);
+}
+
+#text1 {
+  color: bisque;
+}
+/* ---------------------BVN---------------------- */
+
+article h3 {
+  color: rgb(240, 206, 55);
+}
+
+#bienvenue {
+  margin: 100px;
+  border-style: none;
+  border-color: rgb(255, 207, 86);
+  border-radius: 15px;
+}
+
+#image2 {
+  border: 10px rgb(207, 207, 207) ridge;
+  border-width: 5px;
+  width: 600px;
+}
+
+#image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  border: 10px rgb(207, 207, 207) ridge;
+  border-width: 5px;
+  float: right;
+  width: 600px;
+}
+
+* {
+  margin: 0;
+  position: 0;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  box-sizing: border-box;
+}
+
+.swiper-slide {
+  height: 40vh;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  font-size: 10px;
+  padding-left: 100px;
+}
+
+.title {
+  font-weight: bold;
+  font-size: 72px;
+  color: white;
+}
+
+.subtitle {
+  letter-spacing: 3px;
+  font-size: 24px;
+  color: white;
+}
+
+.slide-dw {
+  background-image: url(./hogwarts.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-cd {
+  background-image: url(./pourdlard2.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.slide-cdeb {
+  background-image: url(./poudlard.webp);
+  background-size: cover;
+  background-position: center;
+}
+
+.image-container {
+  width: 300px;
+  height: 200px;
+  background-image: url("path/to/image1.jpg");
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.tabs-container {
+  margin-top: 20px;
+}
+
+.tabs {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+  background-color: #f0f0f0;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.tab {
+  cursor: pointer;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease;
+}
+
+.tab:hover {
+  background-color: #ddd;
+}
+
+.tab-active {
+  background-color: rgba(191, 149, 75, 255);
+  color: white;
+}
+
+.content {
+  display: none;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-top: none;
+}
+
+.content.active {
+  display: block;
+}
+
+footer {
+  background-color: rgb(135, 207, 202);
+  display: flex;
+  justify-content: space-evenly;
+  margin: -20px;
+}
+
+/* ------------------dark mode------------------------*/
+body.dark {
+  background-color: rgb(37, 37, 37);
+  color: #ddd;
+}
+
+.dark title {
+  font-weight: bold;
+  font-size: 72px;
+  color: rgb(255, 255, 255);
+}
+
+.dark footer {
+  background-color: rgb(61, 61, 61);
+  color: #ddd;
+}
+
+.dark img {
+  border: 10px rgba(255, 255, 255, 0.272) ridge;
+  border-width: 5px;
+  float: right;
+  width: 600px;
+}
+
+.dark p {
+  color: rgba(255, 255, 255, 0.374);
+}
+
+.dark h2 {
+  font-family: "MagicFont";
+  font-size: 50px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.dark article h3 {
+  color: rgba(240, 206, 55, 0.136);
+}
+
+.dark nav a {
+  font-size: 3rem;
+  text-decoration: none;
+  color: rgba(240, 206, 55, 0.178);
+}
+
+.dark h1 {
+  font-family: "MagicFont";
+  font-size: 100px;
+  color: rgb(85, 72, 11);
+  text-align: center;
+  margin-left: -20px;
+  margin-right: -20px;
+  margin: 50px 0;
+  background-image: url("https://medias.lavie.fr/api/v1/images/view/6422e9590ce01b7da43de7ab/width_1000/image.jpg");
+  background-size: 5000px;
+  background-repeat: no-repeat;
+  border-style: none;
+  border-color: rgba(72, 61, 13, 0.415);
+}
+
+.dark li {
+  color: #ddd;
+}
