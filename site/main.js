@@ -40,11 +40,11 @@ document.addEventListener("DOMContentLoaded", function () {
     });
   });
 
-  const toggleDarkModeButton = document.querySelector(".toggle-dark-mode");
+  const darkModeToggleButton = document.querySelector(".toggle-dark-mode");
 
-  toggleDarkModeButton.addEventListener("click", function () {
-    const body = document.body;
+  darkModeToggleButton.addEventListener("click", function () {
+    const bodyElement = document.body;
 
-    body.classList.toggle("dark");
+    bodyElement.classList.toggle("dark");
   });
 });
